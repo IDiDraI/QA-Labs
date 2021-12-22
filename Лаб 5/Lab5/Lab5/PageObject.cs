@@ -12,7 +12,7 @@ namespace Lab5
 
         public IWebElement FindElement(By elementSelector) => Driver.FindElement(elementSelector);
 
-        public void WaitForOwnerInformationRender()
+        public void WaitForInfoRender()
         {
             var wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));
             wait.Until(e => !string.IsNullOrEmpty(FindElement(By.CssSelector("table")).Text));

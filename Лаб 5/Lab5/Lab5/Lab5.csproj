@@ -24,7 +24,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="Driver\chromedriver.exe">
+		<None Update="driver\chromedriver.exe">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="TestData.json">

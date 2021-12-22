@@ -15,7 +15,7 @@ namespace Lab5
             Pages.OwnerPage.ChangeCityValue(Owners[0].City, false);
             Pages.OwnerPage.ChangePhoneValue(Owners[0].Phone, false);
             Pages.OwnerPage.ClickOnAddButton();
-            Pages.OwnerPage.WaitForOwnerInformationRender();
+            Pages.OwnerPage.WaitForInfoRender();
         }
 
         [Test]
@@ -25,7 +25,7 @@ namespace Lab5
             Pages.PetTypePage.ClickOnAddPetButton();
             Pages.PetTypePage.ChangeTypeNameValue(Pets[0].Type);
             Pages.PetTypePage.ClickOnSaveTypeButton();
-            Pages.PetTypePage.WaitForOwnerInformationRender();
+            Pages.PetTypePage.WaitForInfoRender();
         }
 
         [Test]
@@ -37,7 +37,7 @@ namespace Lab5
             Pages.PetPage.ChangeBDValue(Pets[0].BirthDay);
             Pages.PetPage.ChangePetTypeValue(Pets[0].Type);
             Pages.PetPage.ClickOnSavePetButton();
-            Pages.PetPage.WaitForOwnerInformationRender();
+            Pages.PetPage.WaitForInfoRender();
         }
     }
 }

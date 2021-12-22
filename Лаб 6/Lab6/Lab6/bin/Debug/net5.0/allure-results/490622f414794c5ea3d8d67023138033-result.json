@@ -1,0 +1,72 @@
+{
+  "uuid": "9ac0b511-bea9-4ab1-b80e-7caf4bd09fa8-tr-0-1002",
+  "historyId": "Lab5.Tests.Test2",
+  "fullName": "Lab5.Tests.Test2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DELL-DIDRA"
+    },
+    {
+      "name": "package",
+      "value": "Lab5"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "Test2",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NotImplementedException : unknown command: unknown command: wd/hub/session\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)\r\n   at Lab5.TestBase.Setup() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 46\r\n--TearDown\r\n   at Lab5.TestBase.TearDown() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 57"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nTearDown TearDown method failed\nThis test adds new type of pets to site\n",
+  "steps": [
+    {
+      "name": "Test2 skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NotImplementedException : unknown command: unknown command: wd/hub/session\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)\r\n   at Lab5.TestBase.Setup() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 46\r\n--TearDown\r\n   at Lab5.TestBase.TearDown() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 57"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "186c9b0db35e487fac3e6a5fe065291b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640146165944,
+      "stop": 1640146165980
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640146165944,
+  "stop": 1640146165981
+}

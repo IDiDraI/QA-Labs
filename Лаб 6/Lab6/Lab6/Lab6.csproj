@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+
+		<IsPackable>false</IsPackable>
+
+		<AssemblyName>Lab6</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Faker.Net" Version="1.5.150" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+		<PackageReference Include="NUnit" Version="3.13.2" />
+		<PackageReference Include="NUnit.Allure" Version="1.2.0.1" />
+		<PackageReference Include="NUnit.Allure.Steps" Version="1.0.9" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+		<PackageReference Include="coverlet.collector" Version="3.1.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Selenium.Support" Version="4.1.0" />
+		<PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+		<PackageReference Include="System.Text.Json" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="allureConfig.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="driver\chromedriver.exe">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="TestData.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

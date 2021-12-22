@@ -1,0 +1,44 @@
+{
+  "uuid": "f566bf1b-dfab-4dac-93bc-9eb8b7cded25-tc-0-1000",
+  "name": "Lab5.Tests.Test3",
+  "children": [
+    "4afdf312-9e46-4d91-b544-a5906f4b7818-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1640148923004,
+      "stop": 1640148923004
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1640148923004,
+      "stop": 1640148923004
+    }
+  ],
+  "links": [],
+  "start": 1640148888586,
+  "stop": 1640148923063
+}

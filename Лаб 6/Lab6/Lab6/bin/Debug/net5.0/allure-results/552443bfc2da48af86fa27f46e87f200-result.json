@@ -1,0 +1,160 @@
+{
+  "uuid": "4afdf312-9e46-4d91-b544-a5906f4b7818-tr-0-1003",
+  "historyId": "Lab5.Tests.Test3",
+  "fullName": "Lab5.Tests.Test3",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DELL-DIDRA"
+    },
+    {
+      "name": "package",
+      "value": "Lab5"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test3"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "suite",
+      "value": "Pet"
+    }
+  ],
+  "links": [],
+  "name": "Test3",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test3"
+  },
+  "stage": "finished",
+  "description": "This test adds new pet to existed owner on site\n",
+  "steps": [
+    {
+      "name": "Test3",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Clicks on add pet button in owner page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148914286,
+          "stop": 1640148914394
+        },
+        {
+          "name": "Changes pet name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148914394,
+          "stop": 1640148914531
+        },
+        {
+          "name": "Changes birth day",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148914532,
+          "stop": 1640148918832
+        },
+        {
+          "name": "Changes type of your pet",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148918833,
+          "stop": 1640148919085
+        },
+        {
+          "name": "Clicks on final button to save pet info that are added",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148919085,
+          "stop": 1640148919236
+        },
+        {
+          "name": "Wait till table with info to display",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148919236,
+          "stop": 1640148922943
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a4dc9356199a4d36bef16f7cc5c417c7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640148888586,
+      "stop": 1640148923004
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640148888586,
+  "stop": 1640148923005
+}

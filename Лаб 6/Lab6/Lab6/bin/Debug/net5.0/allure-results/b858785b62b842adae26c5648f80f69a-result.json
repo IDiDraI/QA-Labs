@@ -1,0 +1,175 @@
+{
+  "uuid": "5bca83fc-ac36-4aec-b615-2431ea1d4dd2-tr-0-1001",
+  "historyId": "Lab5.Tests.Test",
+  "fullName": "Lab5.Tests.Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DELL-DIDRA"
+    },
+    {
+      "name": "package",
+      "value": "Lab5"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test"
+  },
+  "stage": "finished",
+  "description": "This test adds new owner to site\n",
+  "steps": [
+    {
+      "name": "Test",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Changes first name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151050492,
+          "stop": 1640151050623
+        },
+        {
+          "name": "Changes last name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151050623,
+          "stop": 1640151050735
+        },
+        {
+          "name": "Changes address",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151050736,
+          "stop": 1640151050851
+        },
+        {
+          "name": "Changes city",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151050851,
+          "stop": 1640151050965
+        },
+        {
+          "name": "Changes phone",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151050965,
+          "stop": 1640151051082
+        },
+        {
+          "name": "Clicks on add button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151051083,
+          "stop": 1640151051143
+        },
+        {
+          "name": "Wait till table with info to display",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640151051144,
+          "stop": 1640151051347
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "01fb3830cc464d8699c2d3a4d35c0bd3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640151043960,
+      "stop": 1640151051417
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640151043959,
+  "stop": 1640151051422
+}

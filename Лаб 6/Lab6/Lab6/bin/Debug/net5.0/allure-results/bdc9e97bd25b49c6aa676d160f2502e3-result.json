@@ -1,0 +1,130 @@
+{
+  "uuid": "d8747014-83de-4f99-b651-ed56eaabedc3-tr-0-1002",
+  "historyId": "Lab5.Tests.Test2",
+  "fullName": "Lab5.Tests.Test2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DELL-DIDRA"
+    },
+    {
+      "name": "package",
+      "value": "Lab5"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "Test2",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test2"
+  },
+  "stage": "finished",
+  "description": "This test adds new type of pets to site\n",
+  "steps": [
+    {
+      "name": "Test2",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Clicks on add pet type button in type list",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148881602,
+          "stop": 1640148881664
+        },
+        {
+          "name": "Changes type name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148881664,
+          "stop": 1640148881770
+        },
+        {
+          "name": "Clicks on save new pet type button in type list",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148881770,
+          "stop": 1640148881826
+        },
+        {
+          "name": "Wait till table with info to display",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1640148881826,
+          "stop": 1640148888472
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "27c85fb0375b414696f6e9694e0bf232-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640148875341,
+      "stop": 1640148888558
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640148875341,
+  "stop": 1640148888558
+}
