@@ -1,0 +1,18 @@
+{
+    "pets": [
+        {
+            "name": "PetLab5",
+            "birthday": "2021/01/01", // Format: YEAR/MONTH/DAY
+            "type": "PetTypeLab5"
+        }
+    ],
+    "owners": [
+        {
+            "firstName": "Lab5",
+            "lastName": "test1",
+            "address": "test2",
+            "city": "test3",
+            "phone": "0987654321"
+        }
+    ]
+}
