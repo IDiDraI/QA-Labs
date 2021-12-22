@@ -45,5 +45,6 @@ namespace Lab5
             Pages.PetPage.ClickOnSavePetButton();
             Pages.PetPage.WaitForInfoRender();
         }
+
     }
 }

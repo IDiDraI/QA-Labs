@@ -1,0 +1,48 @@
+{
+  "uuid": "55e21a3f-6589-41bc-b5d3-2332bb337078-tc-0-1000",
+  "name": "Lab5.Tests.Test2",
+  "children": [
+    "9ac0b511-bea9-4ab1-b80e-7caf4bd09fa8-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NotImplementedException : unknown command: unknown command: wd/hub/session\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)\r\n   at Lab5.TestBase.Setup() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 46\r\n--TearDown\r\n   at Lab5.TestBase.TearDown() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 57"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1640146165953,
+      "stop": 1640146165953
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NotImplementedException : unknown command: unknown command: wd/hub/session\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)\r\n   at Lab5.TestBase.Setup() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 46\r\n--TearDown\r\n   at Lab5.TestBase.TearDown() in D:\\ДУЖП\\Якість програмного забезпечення та тестування\\Лаб 6\\Lab6\\Lab6\\TestBase.cs:line 57"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1640146165953,
+      "stop": 1640146165953
+    }
+  ],
+  "links": [],
+  "start": 1640146165944,
+  "stop": 1640146165982
+}

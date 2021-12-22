@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,sentBytes,grpThreads,allThreads,Latency,Hostname,Connect
+1640189656281,2508,http://20.50.171.10:8080/,200,OK,Thread Group 1-1,true,9643180,3423,1,1,92,DELL-DIDRA,48
+1640189658790,312,http://20.50.171.10:9966/petclinic/api/specialties,200,,Thread Group 1-1,true,82934,264,1,1,98,DELL-DIDRA,47
+1640189659106,44,http://20.50.171.10:9966/petclinic/api/specialties/134,200,,Thread Group 1-1,true,354,342,1,1,44,DELL-DIDRA,0
+1640189659150,44,http://20.50.171.10:9966/petclinic/api/specialties/134,204,,Thread Group 1-1,true,282,353,1,1,0,DELL-DIDRA,0
+1640189659195,222,http://20.50.171.10:9966/petclinic/api/specialties,200,,Thread Group 1-1,true,82934,264,1,1,51,DELL-DIDRA,0
+1640189656279,3130,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,true,9809684,4646,1,1,285,DELL-DIDRA,95
